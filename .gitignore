@@ -1,0 +1,30 @@
+# === Android Studio ===
+*.iml
+.idea/
+.gradle/
+local.properties
+.DS_Store
+
+# === Gradle ===
+/build/
+**/build/
+.gradle/
+gradle-wrapper.jar
+
+# === Keystore / seguridad ===
+*.jks
+*.keystore
+
+# === Firebase (si lo usaste) ===
+google-services.json
+firebase-debug.log
+
+# === Archivos generados, logs, base de datos ===
+*.db
+*.log
+*.tmp
+
+# === Otros ===
+/captures/
+.externalNativeBuild/
+.cxx/
